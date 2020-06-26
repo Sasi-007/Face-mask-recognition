@@ -29,10 +29,10 @@ function setup() {
 function draw() {
   image(video, 0, 0);
   if (classificationResult == 'A') {
-    text("A", width/2, height/2);
+    text("Please wear the mask", width/2, height/2);
     //rect(100,100,100,100);
   } else if (classificationResult == 'B') {
-    text("B", width/2, height/2);
+    text("Mask found", width/2, height/2);
     //ellipse(100,100,100,100);
   }
 }
